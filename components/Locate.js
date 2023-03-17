@@ -13,7 +13,7 @@ const Locate = () => {
 				Locate Us
 			</div>
 			<div className="flex flex-col md:flex-row gap-8">
-				<div className="w-[70%]">
+				<div className="w-full md:w-[70%]">
 					<Map />
 				</div>
 				<div className="self-center">
