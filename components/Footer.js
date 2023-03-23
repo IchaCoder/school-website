@@ -11,17 +11,17 @@ const Footer = () => {
 					<p className="text-center lg:text-start">North-Kaneshie, Accra</p>
 				</div>
 				<div className="flex flex-col items-center lg:items-start gap-5">
-					<p className="text-xl font-medium">Company</p>
+					<p className="text-xl font-medium">Academic</p>
 					<p className="text-base">Careers</p>
 					<p className="text-base">Teachers</p>
 					<p className="text-base">Support</p>
 					<p className="text-base">Contact</p>
 				</div>
 				<div className="flex flex-col items-center lg:items-start gap-5">
-					<p className="text-xl font-medium">Product</p>
-					<p className="text-base">Courses</p>
-					<p className="text-base">Pricing</p>
-					<p className="text-base">Blog</p>
+					<p className="text-xl font-medium">Extra-curricular</p>
+					<p className="text-base">Games</p>
+					<p className="text-base">Quiz club</p>
+					<p className="text-base">Debate Club</p>
 				</div>
 				<div className="flex flex-col items-center lg:items-start gap-5">
 					<p className="text-xl font-medium">Legal</p>

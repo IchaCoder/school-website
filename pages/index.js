@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Locate from "../components/Locate";
 import MoreInfoModal from "../components/MoreInfoModal";
+import Gallery from "../components/Gallery";
 import MoreInfo from "../components/MoreInfoModal";
 import Navbar from "../components/Navbar";
 import Student from "../components/Student";
@@ -34,9 +35,9 @@ export default function Home() {
 
 			<Hero />
 			<Values />
-			<Teacher />
 			<Student />
 			{/* <MoreInfoModal /> */}
+			<Gallery />
 			<Cta />
 			<Locate />
 			<Footer />

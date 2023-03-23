@@ -6,6 +6,7 @@ import Link from "next/link";
 const Locate = () => {
 	const Map = dynamic(() => import("./MapBox"), {
 		loading: () => <p>A map is loading</p>,
+		ssr: false,
 	});
 	return (
 		<div className="container mx-auto ">

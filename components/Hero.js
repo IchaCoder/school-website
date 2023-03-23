@@ -17,7 +17,10 @@ const Hero = () => {
 							<br className="lg:flex hidden" /> equiped with modern
 							infrastructure
 						</p>
-						<button className="btn btn-sm lg:btn-lg bg-[#524fd5] text-white rounded-full border-none w-36 lg:w-44 capitalize">
+						<button
+							className="btn btn-sm lg:btn-lg bg-[#524fd5] text-white rounded-full border-none w-36 lg:w-44 capitalize"
+							onClick={() => console.log("Hello world")}
+						>
 							Get Started
 						</button>
 					</div>

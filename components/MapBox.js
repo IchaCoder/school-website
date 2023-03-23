@@ -2,22 +2,11 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { useEffect } from "react";
 
 const MapBoxl = () => {
-	useEffect(() => {
-		const L = require("leaflet");
-
-		delete L.Icon.Default.prototype._getIconUrl;
-
-		L.Icon.Default.mergeOptions({
-			iconRetinaUrl: require("leaflet/dist/images/marker-icon-2x.png"),
-			iconUrl: require("leaflet/dist/images/marker-icon.png"),
-			shadowUrl: require("leaflet/dist/images/marker-shadow.png"),
-		});
-	}, []);
 	return (
 		<MapContainer
 			className="markercluster-map h-[500px] mt-12 mx-auto max-w-full"
 			center={[5.597224491965333, -0.24316318575682494]}
-			zoom={13}
+			zoom={15}
 			maxZoom={18}
 		>
 			<TileLayer
